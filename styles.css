@@ -1,0 +1,89 @@
+body{
+    background-color: #195B5A;
+}
+
+.container{
+    margin: auto;
+    width: 40vw;
+    text-align: center;
+    background-color:whitesmoke;
+    border-radius:20px ;
+    padding: 30px;
+}
+
+h1{
+    margin-top: 0;
+}
+
+.task{
+    display:flex ;    
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(140, 42%, 49%);
+    border-radius: 30px;
+}
+
+#taskadd:focus{
+    outline: none;
+    background-color: transparent; 
+    flex:1;
+    text-align: center;
+}
+
+#taskadd,#addbtn{
+    height: 40px;
+    border: none;
+}
+
+#addbtn{
+    background-color: #66C895;
+    border-radius: 30px;
+    width: 90px;
+    font-size: 20px;
+}
+
+#taskadd{
+    flex: 1;
+    background-color: transparent; 
+}
+
+#taskadd::placeholder{
+    text-align: center;
+    color: white;
+}
+
+ul{
+    position: relative;
+    left: -35px;
+    font-size: 20px;
+    width: 100%;   
+}
+
+li{
+    text-align: left;
+    padding: 5px;
+    background-color:#B3E3B4;
+    margin: 5px;
+    list-style: url(icons8-square-24.png);
+    margin: 1px;
+} 
+
+#deltsk{
+    position: absolute;
+    right: 10px;
+    margin: 0;
+    background-color:#66C895;
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#donetsk{
+    position: absolute;
+    right: 70px;
+    margin: 0;
+    background-color:#66C895;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
